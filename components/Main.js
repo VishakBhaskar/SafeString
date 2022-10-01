@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function Main() {
   return (
     <section className="text-black body-font lg:pt-20">
