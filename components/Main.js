@@ -66,9 +66,9 @@ export default function Main() {
                 <br></br>
                 <br></br>
                 <p class="text-gray-800 text-base px-6 mb-5">
-                  Don't let the "big funders" control how you do your research.
-                  You don't have to let them tweak your research papers
-                  according to their will.
+                  Don&apos;t let the &quot; big funders &quot; control how you
+                  do your research. You don&apos;t have to let them tweak your
+                  research papers according to their will.
                   <br></br>
                   <br></br>
                   Work independently. Get funded by the community. Earn with the
@@ -98,8 +98,8 @@ export default function Main() {
                   <br></br> <br></br>
                   Or be a saviour of science and humankind by funding researches
                   which will be free to view and use once it is published. Be
-                  part of the revlotion. You'll always be remembered for it.
-                  On-chain. Always
+                  part of the revlotion. You&apos;ll always be remembered for
+                  it. On-chain. Always
                 </p>
               </a>
             </div>

@@ -83,7 +83,10 @@ export default function AllBlogs() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-4">
             {/* k */}
             {posts.map((post, i) => (
-              <div className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+              <div
+                key={i}
+                className="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700"
+              >
                 <a onClick={() => viewPost(post.cid)}>
                   <img class="rounded-t-lg" src={post.image} alt="" />
                 </a>

@@ -92,8 +92,8 @@ export default function ShowFunds() {
                 role="list"
                 class="divide-y divide-gray-200 dark:divide-gray-700"
               >
-                {funds.map((fund) => (
-                  <li class="py-3 sm:py-4">
+                {funds.map((fund, i) => (
+                  <li key={i} class="py-3 sm:py-4">
                     <div class="flex items-center space-x-4">
                       <div class="flex-shrink-0">
                         <button
