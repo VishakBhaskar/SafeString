@@ -9,7 +9,6 @@ import Footer from "../components/Footer";
 import { blogAddress } from "../config";
 
 import Blog from "../artifacts/contracts/Blog.sol/Blog.json";
-import { id } from "ethers/lib/utils";
 
 export default function AllBlogs() {
   const [posts, setPosts] = useState([]);

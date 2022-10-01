@@ -7,12 +7,6 @@ import { File } from "web3.storage";
 import Head from "next/head";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import {
-  showLink,
-  makeGatewayURL,
-  jsonFile,
-  showMessage,
-} from "../utils/helper";
 
 import { blogAddress } from "../config";
 import { recordAddress } from "../config";
@@ -133,7 +127,10 @@ export default function Create() {
                   </label>
                   <input
                     onChange={(e) =>
-                      updateFormInput({ ...formInput, title: e.target.value })
+                      updateFormInput({
+                        ...formInput,
+                        title: e.target.DOCUMENT_POSITION_FOLLOWING,
+                      })
                     }
                     className="w-full bg-black bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                   />

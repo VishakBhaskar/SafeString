@@ -17,7 +17,14 @@ export default function Donate() {
   const [formInput, updateFormInput] = useState({
     amount: "",
   });
-  const [fund, setFund] = useState([]);
+  const [fund, setFund] = useState({
+    cause: "",
+    minc: "",
+    goal: "",
+    balance: "",
+    contractAddress: "",
+    owner: "",
+  });
   //   const [minCo, setMinCo] = useState([]);
   const [loadingState, setLoadingState] = useState("not-loaded");
 
@@ -38,7 +45,6 @@ export default function Donate() {
     const connection = await web3Modal.connect();
     const provider = new ethers.providers.Web3Provider(connection);
     const signer = provider.getSigner();
-    // const contractAddress = router.query.contractAddress;
 
     const fundContract = new ethers.Contract(
       contractAddress,
@@ -61,11 +67,10 @@ export default function Donate() {
     };
 
     setFund(item);
-    // fund = item;
-    setLoadingState("loaded");
 
-    console.log("Fund is:", fund);
+    setLoadingState("loaded");
   }
+  console.log("Fund is:", fund);
 
   function showEther(number) {
     if (number == "0") {
@@ -135,9 +140,7 @@ export default function Donate() {
           <div class="flex flex-wrap -m-2">
             <div class="p-2 w-1/2 flex mx-auto">
               <div class="relative ">
-                <label class="leading-7 text-sm text-white font-semibold ">
-                  Cause
-                </label>
+                <br></br>
                 <input
                   type="text"
                   class="w-full bg-black bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
