@@ -28,7 +28,7 @@ export default function Main() {
           </div>
           <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
             <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-              <a
+              <Link
                 href="#"
                 class="flex flex-wrap no-underline hover:no-underline"
               >
@@ -51,12 +51,12 @@ export default function Main() {
                   in decentralised storage. Even if we stop working, you never
                   lose your data.
                 </p>
-              </a>
+              </Link>
             </div>
           </div>
           <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
             <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-              <a
+              <Link
                 href="#"
                 class="flex flex-wrap no-underline hover:no-underline"
               >
@@ -77,13 +77,13 @@ export default function Main() {
                   Due to the decentralised way of working, no one will be able
                   to take down your findings. We mean it. No one.
                 </p>
-              </a>
+              </Link>
             </div>
             <div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6"></div>
           </div>
           <div class="w-full md:w-1/3 p-6 flex flex-col flex-grow flex-shrink">
             <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-              <a
+              <Link
                 href="#"
                 class="flex flex-wrap no-underline hover:no-underline"
               >
@@ -101,7 +101,7 @@ export default function Main() {
                   part of the revlotion. You&apos;ll always be remembered for
                   it. On-chain. Always
                 </p>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -118,7 +118,7 @@ export default function Main() {
           </div>
           <div class="w-full md:w-1/3 p-6 bg-black flex flex-col flex-grow flex-shrink">
             <div class="flex-1 bg-transparent rounded-t rounded-b-none overflow-hidden shadow">
-              <a
+              <Link
                 href="#"
                 class="flex flex-wrap no-underline hover:no-underline"
               >
@@ -130,20 +130,20 @@ export default function Main() {
                   Create a fund so the crowd can support the cause, help you
                   carry out your research independently.
                 </p>
-              </a>
+              </Link>
             </div>
             <div class="flex-none mt-auto bg-transparent rounded-b rounded-t-none overflow-hidden shadow p-6"></div>
             <div class="flex items-center justify-center">
-              <a href="/create">
+              <Link href="/create">
                 <button class="mx-auto lg:mx-0 hover:underline gradient text-black bg-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
                   Create
                 </button>
-              </a>
+              </Link>
             </div>
           </div>
           <div class="w-full md:w-1/3 p-6 bg-black flex flex-col flex-grow flex-shrink">
             <div class="flex-1 bg-transparent rounded-t rounded-b-none overflow-hidden shadow">
-              <a
+              <Link
                 href="#"
                 class="flex flex-wrap no-underline hover:no-underline"
               >
@@ -155,20 +155,20 @@ export default function Main() {
                   Upload your work or post an article to the IPFS. Store it
                   permanently
                 </p>
-              </a>
+              </Link>
             </div>
             <div class="flex-none mt-auto bg-transparent rounded-b rounded-t-none overflow-hidden shadow p-6"></div>
             <div class="flex items-center justify-center">
-              <a href="/post">
+              <Link href="/post">
                 <button class="mx-auto lg:mx-0 hover:underline gradient text-black bg-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
                   Post
                 </button>
-              </a>
+              </Link>
             </div>
           </div>
           <div class="w-full md:w-1/3 p-6 bg-black flex flex-col flex-grow flex-shrink">
             <div class="flex-1 bg-transparent rounded-t rounded-b-none overflow-hidden shadow">
-              <a
+              <Link
                 href="#"
                 class="flex flex-wrap no-underline hover:no-underline"
               >
@@ -178,15 +178,15 @@ export default function Main() {
                   Start investing in science. Fund a researcher. Fund a
                   research. Earn.
                 </p>
-              </a>
+              </Link>
             </div>
             <div class="flex-none mt-auto bg-transparent rounded-b rounded-t-none overflow-hidden shadow p-6"></div>
             <div class="flex items-center justify-center">
-              <a href="/fund">
+              <Link href="/fund">
                 <button class="mx-auto lg:mx-0 hover:underline gradient text-black bg-white font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
                   Fund
                 </button>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

@@ -6,12 +6,12 @@ export default function Header() {
   return (
     <header className="text-white body-font">
       <div className="container mx-auto flex flex-wrap p-5 md:flex-row">
-        <a
+        <Link
           className="flex title-font font-medium text-white mb-4 md:mb-0 pr-4"
           href="/"
         >
           <span className="ml-3 text-3xl">SAFE STRING</span>
-        </a>
+        </Link>
         <button
           className="text-white cursor-pointer text-xl leading-none py-1 border border-solid border-transparent rounded bg-transparent block md:hidden outline-none focus:outline-none ml-auto pb-3"
           type="button"
@@ -42,27 +42,27 @@ export default function Header() {
           id="example-navbar-danger"
         >
           <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center font-semibold pl-7">
-            <a className="mr-6 hover:text-white" href="/">
+            <Link className="mr-6 hover:text-white" href="/">
               Home
-            </a>
-            <a className="mr-6 hover:text-white" href="/post">
+            </Link>
+            <Link className="mr-6 hover:text-white" href="/post">
               Post
-            </a>
-            <a className="mr-6 hover:text-white" href="/create">
+            </Link>
+            <Link className="mr-6 hover:text-white" href="/create">
               Create
-            </a>
-            <a className="mr-6 hover:text-white" href="/fund">
+            </Link>
+            <Link className="mr-6 hover:text-white" href="/fund">
               Fund
-            </a>
-            <a className="mr-6 hover:text-white" href="/blog">
+            </Link>
+            <Link className="mr-6 hover:text-white" href="/blog">
               Blog
-            </a>
-            {/* <a className="mr-6 hover:text-white" href="/search">
+            </Link>
+            {/* <Link className="mr-6 hover:text-white" href="/search">
               Search
-            </a> */}
-            {/* <a className="mr-6 hover:text-white" href="/404">
+            </Link> */}
+            {/* <Link className="mr-6 hover:text-white" href="/404">
               404
-            </a> */}
+            </Link> */}
           </nav>
           {/* <button className="px-4 py-2 mt-2 text-sm font-semibold text-white bg-blue-600 transition duration-500 ease-in-out transform bg-transparent rounded-lg dark:text-gray-300 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-100 focus:bg-gray-200 focus:outline-none focus:shadow-outline">
             Download
