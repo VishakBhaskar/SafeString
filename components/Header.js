@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 
 export default function Header() {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
@@ -7,12 +6,12 @@ export default function Header() {
   return (
     <header className="text-white body-font">
       <div className="container mx-auto flex flex-wrap p-5 md:flex-row">
-        <Link
+        <a
           className="flex title-font font-medium text-white mb-4 md:mb-0 pr-4"
           href="/"
         >
           <span className="ml-3 text-3xl">SAFE STRING</span>
-        </Link>
+        </a>
         <button
           className="text-white cursor-pointer text-xl leading-none py-1 border border-solid border-transparent rounded bg-transparent block md:hidden outline-none focus:outline-none ml-auto pb-3"
           type="button"
@@ -43,27 +42,27 @@ export default function Header() {
           id="example-navbar-danger"
         >
           <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center font-semibold pl-7">
-            <Link className="mr-6 hover:text-white" href="/">
+            <a className="mr-6 hover:text-white" href="/">
               Home
-            </Link>
-            <Link className="mr-6 hover:text-white" href="/post">
+            </a>
+            <a className="mr-6 hover:text-white" href="/post">
               Post
-            </Link>
-            <Link className="mr-6 hover:text-white" href="/create">
+            </a>
+            <a className="mr-6 hover:text-white" href="/create">
               Create
-            </Link>
-            <Link className="mr-6 hover:text-white" href="/fund">
+            </a>
+            <a className="mr-6 hover:text-white" href="/fund">
               Fund
-            </Link>
-            <Link className="mr-6 hover:text-white" href="/blog">
+            </a>
+            <a className="mr-6 hover:text-white" href="/blog">
               Blog
-            </Link>
-            {/* <Link className="mr-6 hover:text-white" href="/search">
+            </a>
+            {/* <a className="mr-6 hover:text-white" href="/search">
               Search
-            </Link> */}
-            {/* <Link className="mr-6 hover:text-white" href="/404">
+            </a> */}
+            {/* <a className="mr-6 hover:text-white" href="/404">
               404
-            </Link> */}
+            </a> */}
           </nav>
           {/* <button className="px-4 py-2 mt-2 text-sm font-semibold text-white bg-blue-600 transition duration-500 ease-in-out transform bg-transparent rounded-lg dark:text-gray-300 md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-100 focus:bg-gray-200 focus:outline-none focus:shadow-outline">
             Download

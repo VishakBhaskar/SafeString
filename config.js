@@ -1,4 +1,4 @@
 
-    export const blogAddress = "0x41ca6a3E4289f86573D5c7A104b7384e469FE355"
-    export const recordAddress = "0xc5A877dF47B574E4D8d99D0066032F6e741A463F"
+    export const blogAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3"
+    export const recordAddress = "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512"
   
