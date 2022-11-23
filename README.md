@@ -1,6 +1,8 @@
-# Sample Hardhat Project
+# SafeString - A decentralized, censorship resistant dapp built during the hackathon  - HackCBS
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+What it does:
+Anyone can post their research findings, crowd fund their reearch and make it resistant to bbig corps taking it down. 
+The scholar will have the ownership of their work too.
 
 Try running some of the following tasks:
 
